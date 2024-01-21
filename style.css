@@ -116,6 +116,7 @@ nav a:hover {
 /* HAMBURGER MENU */
 
 #hamburger-nav {
+  color: yellow;
   display: none;
 }
 
@@ -414,6 +415,7 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  padding: auto;
   position: relative;
 }
 
@@ -441,9 +443,10 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  padding-top: 20%;
   display:flex;
   justify-content:center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   height: 70vh;
 }
 
